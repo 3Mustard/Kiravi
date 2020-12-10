@@ -212,6 +212,9 @@ nav {
 		width: 50%;
 		transform: translate(50%, 5%);
 	}
+	.cover {
+		padding-top: 10px;
+	}
 	.cover img {
 		height: 80%;
 	}
@@ -223,4 +226,12 @@ nav {
   .glow {
     font-size: 18px;
   }
+}
+@media screen and (max-width: 375px) {
+	.cta-soundcloud {
+		margin: 10px 0px 0px 0px;
+	}
+	.cover {
+		padding-top: 30px;
+	}
 }
